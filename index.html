@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basics</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Element Selector */
+      h1 {
+        font-size: 2.5em;
+        color: navy;
+      }
+
+      /* Class Selector */
+      .highlight {
+        background-color: lightblue;
+        padding: 10px;
+      }
+
+      /* ID Selector */
+      #unique-section {
+        border: 2px solid coral;
+        padding: 15px;
+      }
+
+      /* internal CSS */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h2 {
+        font-size: 2em;
+        text-align: center;
+      }
+      .note {
+        color: purple;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Part 1: CSS Basics - Selectors, Properties, and Values -->
+    <h1>Welcome to CSS Basics</h1>
+    <p class="highlight">This is a paragraph with a highlighted background.</p>
+    <div id="unique-section">This div has a border around it.</div>
+
+    <!-- Part 2: Inline, Internal, and External CSS -->
+    <p style="color: green">
+      This paragraph uses inline CSS to change its text color to green.
+    </p>
+
+    <a href="youtube.com">YouTUBE</a>
+
+    <!-- Part 3: Basic Styling Properties -->
+    <p style="background-color: yellow; text-align: justify">
+      This is a paragraph with a yellow background and justified text alignment.
+    </p>
+    <h3
+      style="
+        font-family: 'Courier New', monospace;
+        font-weight: bold;
+        font-size: 1.5em;
+      "
+    >
+      Styled Heading
+    </h3>
+
+    <div
+      style="
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 15px;
+        background-color: #fafafa;
+      "
+    >
+      <h3 style="font-size: 1.8em; margin-bottom: 10px">Card Title</h3>
+      <p style="font-size: 1em; line-height: 1.5">
+        This is a simple card component with a light background, padding, and a
+        border.
+      </p>
+    </div>
+  </body>
+</html>
